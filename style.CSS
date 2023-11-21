@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:"Overpass";
+}
+.card {
+    width: 412px; 
+    border-radius: 30px;
+    background:radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%) ;
+
+padding: 32px 32px 32px 32px;
+}
+.card-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #262e38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:30px ;
+}
+.card-heading {
+    color: #fff;
+    /* Heading (Large) */
+   font-weight: 700;
+   margin-bottom: 15px;
+}
+.card-paragrph {
+    color: #969fad;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 28px;
+
+}
+.items {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 28px;
+}
+.item {
+width: 51px;
+height: 51px;
+background-color:#262e38 ;
+border-radius: 50%;
+display:flex ;
+justify-content: center;
+align-items: center;
+}
+.card-btn {
+    border-radius: 22.5px;
+    background: #fff;
+    width: 100%;
+    padding: 13px 0;
+
+color: #FC7614;
+font-family: Overpass;
+font-size: 15px;
+font-weight: 700;
+line-height: 2px;
+}
